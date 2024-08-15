@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://kaust:Coolkid%400629@cluster0.v84kg.mongodb.net/authenticationDB?retryWrites=true&w=majority
+      database: authenticationDB
+
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+    charset: UTF-8
+    prefer-file-system-access: false
